@@ -1,0 +1,51 @@
+{
+    "libros": [
+        {
+            "titulo": "CIEN AÑOS DE SOLEDAD",
+            "autor": "GABRIEL GARCIA MARQUEX",
+            "categoria": "NOVELA",
+            "isbn": "1245",
+            "disponible": true
+        },
+        {
+            "titulo": "EL PRINCIPITO",
+            "autor": "Antoine de Saint-Exupéry",
+            "categoria": "FABULA",
+            "isbn": "1352",
+            "disponible": true
+        },
+        {
+            "titulo": "LA SOMBRA DEL VIENTO",
+            "autor": "CARLOS RUIZ ZAFÓN",
+            "categoria": "MISTERIO",
+            "isbn": "1356",
+            "disponible": true
+        },
+        {
+            "titulo": "EL ARTE DE LA GUERRA",
+            "autor": "SUN IZU",
+            "categoria": "ESTRATEGIA",
+            "isbn": "1654",
+            "disponible": false
+        }
+    ],
+    "usuarios": [
+        {
+            "nombre": "MATIAS",
+            "id_usuario": "U1003",
+            "libros_prestados": []
+        },
+        {
+            "nombre": "ANA",
+            "id_usuario": "U1002",
+            "libros_prestados": []
+        },
+        {
+            "nombre": "JUAN",
+            "id_usuario": "U1005",
+            "libros_prestados": [
+                "1654"
+            ]
+        }
+    ]
+}
